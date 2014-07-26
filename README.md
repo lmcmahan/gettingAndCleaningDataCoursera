@@ -31,7 +31,7 @@ Obtain the descriptive activity names corresponding to the activity numbers from
 - Apply dcast() to the melted data frame to get the average of each measurement variable for each activity and each subject - This results in a tidy data frame.  str() shows the resulting tidy data frame has a total of 180 rows (down from 10299 rows) and 81 variables
 - Use write_table() to write the tidy data frame to a output text file - This is the output tidy data set submitted for part 1
 
-## Final Remark: How to View the Output Tindy Data Set File in R
+## Remark: How to View the Output Tindy Data Set File in R
 1. Use read.table() to load the output tidy data set file into data frame in R.<br>
    e.g. tidyData <- read.table("tidy data set file name")
 2. Use str() to get total number of records and variables as well as variable attributes in the tidy data set.<br>
@@ -39,3 +39,6 @@ Obtain the descriptive activity names corresponding to the activity numbers from
 3. use head and tail to view a few records in the tidy data set.<br>
    e.g. head(tidyData, 3)<br>
    e.g. tail(tidyData, 3)
+
+## How to Use the run_analysis.R Script
+To use the run_analysis.R script, place it in the same dirctory/folder containing the data set downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.  Set your R working dirctory to this directory.  To run the script, issue source("run_analysis.R") at the R prompt.

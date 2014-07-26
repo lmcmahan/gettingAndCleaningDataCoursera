@@ -146,14 +146,14 @@ hr {
 
 <h2>Introduction</h2>
 
-<p>This repository is created for the final project of the &#39;Getting and Cleaning Data&#39; Coursera course. The repository consists of three files: (1) README.md, (2) CodeBook.md and (1) run_analysis.R script.  The
+<p>This repository is created for the final project of the &#39;Getting and Cleaning Data&#39; Coursera course. The repository consists of three files: (1) README.md, (2) CodeBook.md and (3) run_analysis.R script.  The
 README.md file describes how the script works and the CodeBook.md contains description of the data variables. The run_analysis.R script is used to process and analyze the data set downloaded from <a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip">https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip</a>.  A full description of the data set is available at <a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones">http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones</a>.  Following are the steps the script performs to clean up the downloaded raw data set, to analyze the resulting cleaned data set, and to generate a tidy data set according to the class project description.</p>
 
 <h3>Step 1: Load the features, training and testing data files into data frames in R</h3>
 
 <ul>
 <li>The training and testing data set, each has three data files: subject (i.e. subject_x.txt), activity (i.e. y_x.txt) and measurements (i.e. X_x.txt) files.  For the testing data set, use read.table() to load the subject_test.txt, y_test.txt and X_test.txt files respectively into subjectTest, yTest and xTest data frames in R.  For the training data set, use read.table() to load the subject_train.txt, y_train.txt and X_train.txt files respectively into subjectTrain, yTrain and xTrain data frames in R</li>
-<li>use read.table() to load the features.txt file into R data frame and extract 561 measurement variable names from the second column of the data frame</li>
+<li>Use read.table() to load the features.txt file into R data frame and extract 561 measurement variable names from the second column of the data frame</li>
 </ul>
 
 <h3>Step 2: Label data frames with descriptive variable names</h3>
@@ -191,7 +191,7 @@ README.md file describes how the script works and the CodeBook.md contains descr
 <li>Use write_table() to write the tidy data frame to a output text file - This is the output tidy data set submitted for part 1</li>
 </ul>
 
-<h2>Final Remark: How to View the Output Tindy Data Set File in R</h2>
+<h2>Remark: How to View the Output Tindy Data Set File in R</h2>
 
 <ol>
 <li>Use read.table() to load the output tidy data set file into data frame in R.<br>
@@ -202,6 +202,10 @@ e.g. str(tidyData)</li>
 e.g. head(tidyData, 3)<br>
 e.g. tail(tidyData, 3)</li>
 </ol>
+
+<h2>How to Use the run_analysis.R Script</h2>
+
+<p>To use the run_analysis.R script, place it in the same dirctory/folder containing the data set downloaded from <a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip">https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip</a>.  Set your R working dirctory to this directory.  To run the script, issue source(&ldquo;run_analysis.R&rdquo;) at the R prompt.</p>
 
 </body>
 

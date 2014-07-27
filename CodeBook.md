@@ -1,6 +1,6 @@
-# UCI HAR Subset Variable list of the Tidy Data Set
+## UCI HAR Subset Variable list of the Tidy Data Set
 
-## Codebook
+### Codebook
 
 #### Subject
 Volunteer Subject Identification Number<br><br>
@@ -256,7 +256,7 @@ Data type: numeric<br>
 The Average Of Gyroscope Measured Fast Fourier Transform (FFT) Domain Body Acceleration Signal Mean Values In The Y Direction For This Activity And Subject<br><br>
 Data type: numeric<br>
 .......................................................................................................
-#### fBodyGyro-mean()-Z"
+#### fBodyGyro-mean()-Z
 The Average Of Gyroscope Measured Fast Fourier Transform (FFT) Domain Body Acceleration Signal Mean Values In The Z Direction For This Activity And Subject<br><br>
 Data type: numeric<br>
 .......................................................................................................
@@ -328,6 +328,6 @@ Data type: numeric<br>
 The Average Of gyroscope Measured Fast Fourier Transform (FFT) Domain Body Acceleration Plus Body Linear Acceleration And Angular Velocity Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Standard Deviation values For This Activity And Subject<br><br>
 Data type: numeric<br>
 .......................................................................................................
-#### fBodyBodyGyroJerkMag-meanFreq()"
+#### fBodyBodyGyroJerkMag-meanFreq()
 The Average Of gyroscope Measured Fast Fourier Transform (FFT) Domain Body Acceleration Plus Body Linear Acceleration And Angular Velocity Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Frequency_Components_Weighted Mean Values For This Activity And Subject<br><br>
 Data type: numeric<br>

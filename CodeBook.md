@@ -2,11 +2,11 @@
 
 ### Codebook
 
-#### Subject
+#### subject
 Volunteer Subject Identification Number<br><br>
 Data type: integer<br>
 ........................................................................................................
-#### Activity
+#### activity
 Activity Performed By This Subject<br><br>
 1 .WALKING<br>
 2 .WALKING_UPSTAIRS<br>
@@ -14,7 +14,7 @@ Activity Performed By This Subject<br><br>
 4 .SITTING<br>
 5 .STANDING<br>
 6 .LAYING<br><br>
-Data type: factor<br>
+Data type: Factor w/ 6 levels<br>
 ........................................................................................................
 #### tBodyAcc-mean()-X
 The Average Of Accelerometer Measured Time Domain Body Acceleration Signal Mean Values In The X Direction For This Activity And Subject<br><br>

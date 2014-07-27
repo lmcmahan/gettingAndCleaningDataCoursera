@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>UCI HAR Subset Variable list of the Tidy Data Set</title>
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 12px;
+   margin: 8px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 { 
+   font-size:2.2em; 
+}
+
+h2 { 
+   font-size:1.8em; 
+}
+
+h3 { 
+   font-size:1.4em; 
+}
+
+h4 { 
+   font-size:1.0em; 
+}
+
+h5 { 
+   font-size:0.9em; 
+}
+
+h6 { 
+   font-size:0.8em; 
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre {	
+   margin-top: 0;
+   max-width: 95%;
+   border: 1px solid #ccc;
+   white-space: pre-wrap;
+}
+
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code.r, code.cpp {
+   background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * { 
+      background: transparent !important; 
+      color: black !important; 
+      filter:none !important; 
+      -ms-filter: none !important; 
+   }
+
+   body { 
+      font-size:12pt; 
+      max-width:100%; 
+   }
+       
+   a, a:visited { 
+      text-decoration: underline; 
+   }
+
+   hr { 
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote { 
+      padding-right: 1em; 
+      page-break-inside: avoid; 
+   }
+
+   tr, img { 
+      page-break-inside: avoid; 
+   }
+
+   img { 
+      max-width: 100% !important; 
+   }
+
+   @page :left { 
+      margin: 15mm 20mm 15mm 10mm; 
+   }
+     
+   @page :right { 
+      margin: 15mm 10mm 15mm 20mm; 
+   }
+
+   p, h2, h3 { 
+      orphans: 3; widows: 3; 
+   }
+
+   h2, h3 { 
+      page-break-after: avoid; 
+   }
+}
+
+</style>
+
+
+
+
+
+</head>
+
+<body>
+<h1>UCI HAR Subset Variable list of the Tidy Data Set</h1>
+
+<h2>Codebook</h2>
+
+<h4>Subject</h4>
+
+<p>Volunteer Subject Identification Number<br><br>
+Data type: integer<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>Activity</h4>
+
+<p>Activity Performed By This Subject<br><br>
+1 .WALKING<br>
+2 .WALKING_UPSTAIRS<br>
+3 .WALKING_DOWNSTAIRS<br>
+4 .SITTING<br>
+5 .STANDING<br>
+6 .LAYING<br><br>
+Data type: factor<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyAcc-mean()-X</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Body Acceleration Signal Mean Values In The X Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyAcc-mean()-Y</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Body Acceleration Signal Mean Values In The Y Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyAcc-mean()-Z</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Body Acceleration Signal Mean Values In The Z Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyAcc-std()-X</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Body Acceleration Signal Standard Deviation Values In The X Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyAcc-std()-Y</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Body Acceleration Signal Standard Deviation Values In The Y Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyAcc-std()-Z</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Body Acceleration Signal Standard Deviation Values In The Z Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tGravityAcc-mean()-X</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Gravity Acceleration Signal Mean Values In The X Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tGravityAcc-mean()-Y</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Gravity Acceleration Signal Mean Values In The Y Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tGravityAcc-mean()-Z</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Gravity Acceleration Signal Mean Values In The Z Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tGravityAcc-std()-X</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Gravity Acceleration Signal Standard Deviation Values In The X Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tGravityAcc-std()-Y</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Gravity Acceleration Signal Standard Deviation Values In The Y Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tGravityAcc-std()-Z</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Gravity Acceleration Signal Standard Deviation Values In The Z Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyAccJerk-mean()-X</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Body Linear Acceleration And Angular Velocity Signal Mean values In The X Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyAccJerk-mean()-Y</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Body Linear Acceleration And Angular Velocity Signal Mean values In The Y Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyAccJerk-mean()-Z</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Body Linear Acceleration And Angular Velocity Signal Mean values In The Z Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyAccJerk-std()-X</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Body Linear Acceleration And Angular Velocity Signal Standard Deviation values In The X Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyAccJerk-std()-Y</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Body Linear Acceleration And Angular Velocity Signal Standard Deviation values In The Y Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyAccJerk-std()-Z</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Body Linear Acceleration And Angular Velocity Signal Standard Deviation values In The Z Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyGyro-mean()-X</h4>
+
+<p>The Average Of Gyroscope Measured Time Domain Body Acceleration Signal Mean Values In The X Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyGyro-mean()-Y</h4>
+
+<p>The Average Of Gyroscope Measured Time Domain Body Acceleration Signal Mean Values In The Y Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyGyro-mean()-Z</h4>
+
+<p>The Average Of Gyroscope Measured Time Domain Body Acceleration Signal Mean Values In The Z Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyGyro-std()-X</h4>
+
+<p>The Average Of Gyroscope Measured Time Domain Body Acceleration Signal Standard Deviation Values In The X Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyGyro-std()-Y</h4>
+
+<p>The Average Of Gyroscope Measured Time Domain Body Acceleration Signal Standard Deviation Values In The Y Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyGyro-std()-Z</h4>
+
+<p>The Average Of Gyroscope Measured Time Domain Body Acceleration Signal Standard Deviation Values In The Z Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyGyroJerk-mean()-X</h4>
+
+<p>The Average Of Gyroscope Measured Time Domain Body Linear Acceleration And Angular Velocity Signal Mean values In The X Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyGyroJerk-mean()-Y</h4>
+
+<p>The Average Of Gyroscope Measured Time Domain Body Linear Acceleration And Angular Velocity Signal Mean values In The Y Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyGyroJerk-mean()-Z</h4>
+
+<p>The Average Of Gyroscope Measured Time Domain Body Linear Acceleration And Angular Velocity Signal Mean values In The Z Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyGyroJerk-std()-X</h4>
+
+<p>The Average Of Gyroscope Measured Time Domain Body Linear Acceleration And Angular Velocity Signal Standard Deviation values In The X Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyGyroJerk-std()-Y</h4>
+
+<p>The Average Of Gyroscope Measured Time Domain Body Linear Acceleration And Angular Velocity Signal Standard Deviation values In The Y Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyGyroJerk-std()-Z</h4>
+
+<p>The Average Of Gyroscope Measured Time Domain Body Linear Acceleration And Angular Velocity Signal Standard Deviation values In The Z Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyAccMag-mean()</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Body Acceleration Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Mean Values For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyAccMag-std()</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Body Acceleration Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Standard Deviation Values For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tGravityAccMag-mean()</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Gravity Acceleration Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Mean Values For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tGravityAccMag-std()</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Gravity Acceleration Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Standard Deviation Values For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyAccJerkMag-mean()</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Body Linear Acceleration And Angular Velocity Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Mean values For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyAccJerkMag-std()</h4>
+
+<p>The Average Of Accelerometer Measured Time Domain Body Linear Acceleration And Angular Velocity Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Standard Deviation values For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyGyroMag-mean()</h4>
+
+<p>The Average Of Gyroscope Measured Time Domain Body Acceleration Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Mean Values For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyGyroMag-std()</h4>
+
+<p>The Average Of Gyroscope Measured Time Domain Body Acceleration Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Standard Deviation Values For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyGyroJerkMag-mean()</h4>
+
+<p>The Average Of Gyroscope Measured Time Domain Body Linear Acceleration And Angular Velocity Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Mean values For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>tBodyGyroJerkMag-std()</h4>
+
+<p>The Average Of Gyroscope Measured Time Domain Body Linear Acceleration And Angular Velocity Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Standard Deviation values For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>fBodyAcc-mean()-X</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Acceleration Signal Mean Values In The X Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>fBodyAcc-mean()-Y</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Acceleration Signal Mean Values In The Y Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>fBodyAcc-mean()-Z</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Acceleration Signal Mean Values In The Z Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>fBodyAcc-std()-X</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Acceleration Signal Standard Deviation Values In The X Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>fBodyAcc-std()-Y</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Acceleration Signal Standard Deviation Values In The Y Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<h4>fBodyAcc-std()-Z</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Acceleration Signal Standard Deviation Values In The Z Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyAcc-meanFreq()-X</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Acceleration Signal Frequency_Components_Weighted Average values In The X Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyAcc-meanFreq()-Y</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Acceleration Signal Frequency_Components_Weighted Average values In The Y Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyAcc-meanFreq()-Z</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Acceleration Signal Frequency_Components_Weighted Average values In The Z Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyAccJerk-mean()-X</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Linear Acceleration And Angular Velocity Signal Mean values In The X Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyAccJerk-mean()-Y</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Linear Acceleration And Angular Velocity Signal Mean values In The Y Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyAccJerk-mean()-Z</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Linear Acceleration And Angular Velocity Signal Mean values In The Z Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyAccJerk-std()-X</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Linear Acceleration And Angular Velocity Signal Standard Deviation values In The X Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyAccJerk-std()-Y</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Linear Acceleration And Angular Velocity Signal Standard Deviation values In The Y Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyAccJerk-std()-Z</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Linear Acceleration And Angular Velocity Signal Standard Deviation values In The Z Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyAccJerk-meanFreq()-X</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Linear Acceleration And Angular Velocity Signal Frequency_Components_Weighted Average values In The X Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyAccJerk-meanFreq()-Y</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Linear Acceleration And Angular Velocity Signal Frequency_Components_Weighted Average values In The Y Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyAccJerk-meanFreq()-Z</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Linear Acceleration And Angular Velocity Signal Frequency_Components_Weighted Average values In The Z Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyGyro-mean()-X</h4>
+
+<p>The Average Of Gyroscope Measured Fast Fourier Transform (FFT) Domain Body Acceleration Signal Mean Values In The X Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyGyro-mean()-Y</h4>
+
+<p>The Average Of Gyroscope Measured Fast Fourier Transform (FFT) Domain Body Acceleration Signal Mean Values In The Y Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyGyro-mean()-Z&quot;</h4>
+
+<p>The Average Of Gyroscope Measured Fast Fourier Transform (FFT) Domain Body Acceleration Signal Mean Values In The Z Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyGyro-std()-X</h4>
+
+<p>The Average Of Gyroscope Measured Fast Fourier Transform (FFT) Domain Body Acceleration Signal Standard Deviation Values In The X Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyGyro-std()-Y</h4>
+
+<p>The Average Of Gyroscope Measured Fast Fourier Transform (FFT) Domain Body Acceleration Signal Standard Deviation Values In The Y Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyGyro-std()-Z</h4>
+
+<p>The Average Of Gyroscope Measured Fast Fourier Transform (FFT) Domain Body Acceleration Signal Standard Deviation Values In The Z Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyGyro-meanFreq()-X</h4>
+
+<p>The Average Of Gyroscope Measured Fast Fourier Transform (FFT) Domain Body Acceleration Signal Frequency_Components_Weighted Average values In The X Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyGyro-meanFreq()-Y</h4>
+
+<p>The Average Of Gyroscope Measured Fast Fourier Transform (FFT) Domain Body Acceleration Signal Frequency_Components_Weighted Average values In The Y Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyGyro-meanFreq()-Z</h4>
+
+<p>The Average Of Gyroscope Measured Fast Fourier Transform (FFT) Domain Body Acceleration Signal Frequency_Components_Weighted Average values In The Z Direction For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyAccMag-mean()</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Acceleration Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Mean Values For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyAccMag-std()</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Acceleration Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Standard Deviation Values For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyAccMag-meanFreq()</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Acceleration Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Frequency_Components_Weighted Average values For This Activity and Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyBodyAccJerkMag-mean()</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Acceleration Plus Body Linear Acceleration And Angular Velocity Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Mean values For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyBodyAccJerkMag-std()</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Acceleration Plus Body Linear Acceleration And Angular Velocity Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Standard Deviation values For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyBodyAccJerkMag-meanFreq()</h4>
+
+<p>The Average Of Accelerometer Measured Fast Fourier Transform (FFT) Domain Body Acceleration Plus Body Linear Acceleration And Angular Velocity Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Frequency_Components_Weighted Mean Values For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyBodyGyroMag-mean()</h4>
+
+<p>The Average Of gyroscope Measured Fast Fourier Transform (FFT) Domain Body Acceleration Plus Body Acceleration Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Mean values For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyBodyGyroMag-std()</h4>
+
+<p>The Average Of gyroscope Measured Fast Fourier Transform (FFT) Domain Body Acceleration Plus Body Acceleration Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Standard Deviation values For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h3>fBodyBodyGyroMag-meanFreq()</h3>
+
+<p>The Average Of gyroscope Measured Fast Fourier Transform (FFT) Domain Body Acceleration Plus Body Acceleration Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Frequency_Components_Weighted Mean Values For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyBodyGyroJerkMag-mean()</h4>
+
+<p>The Average Of gyroscope Measured Fast Fourier Transform (FFT) Domain Body Acceleration Plus Body Linear Acceleration And Angular Velocity Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Mean values For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyBodyGyroJerkMag-std()</h4>
+
+<p>The Average Of gyroscope Measured Fast Fourier Transform (FFT) Domain Body Acceleration Plus Body Linear Acceleration And Angular Velocity Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Standard Deviation values For This Activity And Subject<br><br>
+Data type: numeric<br>
+&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h4>fBodyBodyGyroJerkMag-meanFreq()&ldquo;</h4>
+
+<p>The Average Of gyroscope Measured Fast Fourier Transform (FFT) Domain Body Acceleration Plus Body Linear Acceleration And Angular Velocity Euclidean_norm calculated magnitude of the 3_XYZ_axial Signals Frequency_Components_Weighted Mean Values For This Activity And Subject<br><br>
+Data type: numeric<br></p>
+
+</body>
+
+</html>
+

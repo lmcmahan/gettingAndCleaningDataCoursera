@@ -28,7 +28,7 @@ Obtain the descriptive activity names corresponding to the activity numbers from
 
 ### Step 7: Create a tidy data set with the average of each measurement variable for each activity and each subject
 - Use melt() to set 'subject' and 'activity' variables in the data set to id and the remaing 79 measurement variables in the data set to measure.vars - This results in a melted data frame
-- Apply dcast() to the melted data frame to get the average of each measurement variable for each activity and each subject - This results in a tidy data frame.  str() shows the resulting tidy data frame has a total of 180 rows (down from 10299 rows) and 81 variables
+- Apply dcast() to the melted data frame to group the data by subject and activity variables, and then calclate the average of each measurement variable for each activity and each subject - This results in a tidy data frame.  str() shows the resulting tidy data frame has a total of 180 rows (down from 10299 rows) and 81 variables
 - Use write_table() to write the tidy data frame to a output text file - This is the output tidy data set submitted for part 1
 
 ## Remark: How to View the Output Tindy Data Set File in R

@@ -187,7 +187,7 @@ README.md file describes how the script works and the CodeBook.md contains descr
 
 <ul>
 <li>Use melt() to set &#39;subject&#39; and &#39;activity&#39; variables in the data set to id and the remaing 79 measurement variables in the data set to measure.vars - This results in a melted data frame</li>
-<li>Apply dcast() to the melted data frame to get the average of each measurement variable for each activity and each subject - This results in a tidy data frame.  str() shows the resulting tidy data frame has a total of 180 rows (down from 10299 rows) and 81 variables</li>
+<li>Apply dcast() to the melted data frame to group the data by subject and activity variables, and then calclate the average of each measurement variable for each activity and each subject - This results in a tidy data frame.  str() shows the resulting tidy data frame has a total of 180 rows (down from 10299 rows) and 81 variables</li>
 <li>Use write_table() to write the tidy data frame to a output text file - This is the output tidy data set submitted for part 1</li>
 </ul>
 
